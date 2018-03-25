@@ -8,5 +8,9 @@ def generate(length):
 length = int(input("Enter the desired password length "))
 number = int(input("Enter number of passwords to generate "))
 
+f=open("pass.txt",'a')
 for i in range(number):
-    print(generate(length))
+    passw = generate(length)
+    f.write(passw+"\n")
+    print (passw)
+f.close()
