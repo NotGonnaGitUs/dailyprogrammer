@@ -1,11 +1,5 @@
-[Challenge 10 - Easy](https://www.reddit.com/r/dailyprogrammer/comments/pv98f/2182012_challenge_10_easy/)
+[Challenge 11 - Easy](https://www.reddit.com/r/dailyprogrammer/comments/pwons/2192012_challenge_11_easy/)
 
 **Challenge**
 
-The exercise today asks you to validate a telephone number, as if written on an input form. Telephone numbers can be written as ten digits, or with dashes, spaces, or dots between the three segments, or with the area code parenthesized; both the area code and any white space between segments are optional.
-
-Thus, all of the following are valid telephone numbers: 1234567890, 123-456-7890, 123.456.7890, (123)456-7890, (123) 456-7890 (note the white space following the area code), and 456-7890.
-
-The following are not valid telephone numbers: 123-45-6789, 123:4567890, and 123/456-7890.
-
-source: programmingpraxis.com
+The program should take three arguments. The first will be a day, the second will be month, and the third will be year. Then, your program should compute the day of the week that date will fall on.
